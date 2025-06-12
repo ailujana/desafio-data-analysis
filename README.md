@@ -17,6 +17,10 @@ No campeonato, 20 times disputam o primeiro lugar na tabela, em 38 rodadas de tu
 Um exemplo da tabela [final de classificação do Brasileirão Série A de 2024](https://ge.globo.com/futebol/brasileirao-serie-a/)  pode ser encontrado no site do Globo Esporte. 
 
 ## A base de dados 🗂️
+
+A única fonte de dados será um conjunto de arquivos csv disponibilizados no Github original:  
+https://github.com/adaoduque/Brasileirao_Dataset/
+
 Os dados do campeonato são coletados desde 2003, mas estatísticas, número de cartões e detalhamento de gols passaram a ser coletado apenas mais recentemente. Portanto, temos 4 bases de dados csv para este desafio, unidas pelo id da partida:
 
 1. **Campeonato Brasileiro Full**: Cada registro contém dados como o **ID** da partida, **rodada**, **data** e **hora**, times **mandante** e **visitante**, suas respectivas **formações táticas** e **técnicos**, além do **vencedor** da partida, o **nome da arena**, o placar de ambos os times (**mandante_Placar** e **visitante_Placar**) e os estados de origem dos clubes (**mandante_Estado** e **visitante_Estado**
